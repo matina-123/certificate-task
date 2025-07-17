@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FormExample</title>
+    <link rel="stylesheet" href="certificate.css">
+</head>
+<body>
+    <!-- main division -->
+     <div class="maindiv">
+        <h1 style="text-align: center;">Certificate Generation Options</h1>
+        <div class="container">
+        <label for="select mode">
+            <strong>Select Mode:</strong>
+            </label>
+            <select name="dropdown" id="options">
+                <option value="Single certificate">Single Certificate(using form fields)</option>
+                <option value="double">Double Certificate (using form fields)</option>
+            </select><br>
+            <!-- parent division -->
+            <div class="parent">
+        <!-- first child division -->
+        <div class="child">
+            <label for="certificate">
+                <strong>Certificate Type:</strong><br><br>
+            </label>
+            <select name="drop" id="certificate">
+                <option value="pcc">Project Completion Certificate:</option>
+                <option value="acc">Project Certificate:</option>
+            </select><br>
+            <label><strong>Program:</strong></label><br>
+            <input type="text" placeholder="eg:BCA"><br>
+            <label><strong>Course Instructor Name:</strong></label><br>
+            <input type="text" placeholder="eg:Matina Shrestha"><br>
+            <label><strong>Principal Name:</strong></label><br>
+            <input type="text" placeholder="eg:Sandeep Shrestha"><br>
+            <label><strong>Affiliation:</strong></label><br>
+            <input type="text" placeholder="eg:TU">
+        </div>
+        <!-- second division -->
+        <div class="child">
+            <label><strong>Recipent Name:</strong></label><br>
+            <input type="text" placeholder="Ranjita shrestha"><br>
+            <label><strong>Academic Year:</strong></label><br>
+            <input type="text" placeholder="eg:2024 AD"><br>
+            <label><strong>Head Of Department Name:</strong></label><br>
+            <input type="text" placeholder="eg:Prof.deepak shrestha"><br>
+            <label><strong>Principal Designation (Optional):</strong></label><br>
+            <input type="text" placeholder="eg:College principal"><br>
+            <label><strong>College Address:</strong></label><br>
+            <input type="text" placeholder="eg:lokanthali-1,Bhaktapur">
+        </div>
+        <!-- third division -->
+        <div class="child">
+            <label><strong>Batch:</strong></label><br>
+            <input type="text" placeholder="eg:2024 AD"><br>
+            <label><strong>Project Title:</strong></label><br>
+            <input type="text" placeholder="eg:Advance AI"><br>
+            <label><strong>HOD Designation (Optional):</strong></label><br>
+            <input type="text" placeholder="eg:Head of Computer Science"><br>
+            <label><strong>College Name:</strong></label><br>
+            <input type="text" placeholder="eg:Samriddhi College"><br>
+            <label><strong>Contact Phone:</strong></label><br>
+            <input type="text" placeholder="eg:98xxxxxxxx">
+        </div>
+     </div>
+     <div class="submit">
+            <button onclick="alert('Form submitted successfully!')">Submit</button>
+        </div>
+        </div>
+     </div>
+</body>
+</html>
